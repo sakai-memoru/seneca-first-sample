@@ -48,7 +48,7 @@ $ node seneca-containsKeywords-serv.js
 $ node seneca-containsKeywords.js
 ```
 
-[http://localhost:3000/act?role=web&cmd=containsKeywords&message=Hello&sceneCode=SAY_HELLO](http://localhost:3000/act?role=web&cmd=containsKeywords&message=Hello&sceneCode=SAY_HELLO)  
+[http://localhost:10101/act?role=web&cmd=containsKeywords&message=Hello&sceneCode=SAY_HELLO](http://localhost:10101/act?role=web&cmd=containsKeywords&message=Hello&sceneCode=SAY_HELLO)  
 
 // --- end of file --- //
 

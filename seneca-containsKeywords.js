@@ -11,7 +11,7 @@ seneca.add(rolecmd, (msg_obj,response_cb) =>{
   let retVal = contains(msg_obj.message,msg_obj.sceneCode);
   let err = null;
   response_cb(err, {'retVal' : retVal});
-}).listen(3000);
+}).listen();
 
 
 // debug ----------------------
