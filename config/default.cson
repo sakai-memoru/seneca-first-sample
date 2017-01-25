@@ -1,0 +1,19 @@
+'keywords' : 
+  'SAY_HELLO' :[
+    'Hello'
+    'Good morning'
+    'Good afternoon'
+  ]
+'Routes' : [
+    {
+    prefix : '/v1'
+    pin : 'role:web,cmd:containsKeywords'
+    map : {
+      containsKeywords : {
+        GET : true
+        POST : true
+        name : 'containsKeywords'
+        }
+      }
+    }
+  ]
