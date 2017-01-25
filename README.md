@@ -14,7 +14,7 @@ References
 -------------
 [http://senecajs.org](http://senecajs.org)  
 [http://senecajs.org/getting-started/](http://senecajs.org/getting-started/)  
-[https://fullstakforger.com/javascript/seneca-cheat-sheet/](https://fullstakforger.com/javascript/seneca-cheat-sheet)  
+[https://fullstackforger.com/javascript/seneca-cheat-sheet/](https://fullstackforger.com/javascript/seneca-cheat-sheet)  
 
 
 
