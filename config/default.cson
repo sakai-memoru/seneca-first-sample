@@ -7,12 +7,13 @@
 'Routes' : [
     {
     prefix : '/v1'
-    pin : 'role:web,cmd:containsKeywords'
+    pin : 'role:engagement,cmd:containsKeywords'
     map : {
       containsKeywords : {
         GET : true
         POST : true
-        name : 'containsKeywords'
+        name: 'containsKeywords'
+        ## alias$ : '/containKeyword'
         }
       }
     }

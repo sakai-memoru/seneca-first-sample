@@ -22,5 +22,8 @@
     "string": "^3.3.3",
     "uuid": "^3.0.1",
     "xregexp": "^3.1.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0"
   }
 }
