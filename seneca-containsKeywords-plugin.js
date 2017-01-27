@@ -1,4 +1,4 @@
-const actionSet = require('./containsKeywords.js').actionSet;
+const actionSet = require('./lib/containsKeywords.js').actionSet;
 const seneca = require('seneca')();
 
 

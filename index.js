@@ -1,0 +1,1 @@
+require('./seneca-generateId-serv');

@@ -31,6 +31,11 @@ Usage
 $ node seneca-generateid-serv.js
 ```
 
+or can start blow:
+```bash
+$ npm start
+```
+
 [http://localhost:3000/uuid](http://localhost:3000/uuid)  
 [http://localhost:3000/timestamp](http://localhost:3000/timestamp)  
 [http://localhost:3000/id/random](http://localhost:3000/id/random)  

@@ -2,7 +2,7 @@ const seneca = require('seneca')();
 const senecaWeb = require('seneca-web');
 const express = require('express')();
 const adapter = require('seneca-web-adapter-express');
-const setting  = require('./setting');
+const setting  = require('./config/setting');
 const plugin = require('./seneca-generateId-plugin');
 
 // plugin use    ------------------------------------------

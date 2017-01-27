@@ -1,6 +1,6 @@
 // module import ------------------------------------------
 // generate random id 
-const randomId = require('./generateId').randomId;
+const randomId = require('./lib/generateId').randomId;
 let ptnStrrandomId = 'role:generator,cmd:randomId';
 
 // make plugin 
@@ -17,7 +17,7 @@ module.exports.randomIdPlugin = randomIdPlugin;
 
 // module import ------------------------------------------
 // generate timestamp
-const timestampId = require('./generateId').timestampId;
+const timestampId = require('./lib/generateId').timestampId;
 let ptnStrTimestampId = 'role:generator,cmd:timestampId';
 
 // make plugin 
@@ -34,7 +34,7 @@ module.exports.timestampIdPlugin= timestampIdPlugin;
 
 // module import ------------------------------------------
 // generate uuid
-const uuId = require('./generateId').uuId;
+const uuId = require('./lib/generateId').uuId;
 let ptnStrUuId = 'role:generator,cmd:uuId';
 
 // make plugin 
@@ -51,7 +51,7 @@ module.exports.uuIdPlugin= uuIdPlugin;
 
 // module import ------------------------------------------
 // generate random key
-const randomKey = require('./generateId').randomKey;
+const randomKey = require('./lib/generateId').randomKey;
 let ptnStrRandomKey = 'role:generator,cmd:randomKey';
 
 // make plugin 
@@ -68,7 +68,7 @@ module.exports.randomKeyPlugin= randomKeyPlugin;
 
 // module import ------------------------------------------
 // generate random key2
-const randomKey2 = require('./generateId').randomKey;
+const randomKey2 = require('./lib/generateId').randomKey;
 let ptnStrRandomKey2 = 'role:generator,cmd:randomKey2';
 
 // make plugin 
@@ -86,7 +86,7 @@ module.exports.randomKey2Plugin= randomKey2Plugin;
 
 // module import ------------------------------------------
 // generate date key
-const dateKey = require('./generateId').dateKey;
+const dateKey = require('./lib/generateId').dateKey;
 
 let ptnStrDateKey = 'role:generator,cmd:dateKey';
 

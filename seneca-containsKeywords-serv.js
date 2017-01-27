@@ -1,6 +1,6 @@
 const plugin = require('./seneca-containsKeywords-plugin.js');
-const setting  = require('./setting');
-const Routes = require('./setting-routes.js').Routes;
+const setting  = require('./config/setting');
+const Routes = require('./config/setting-routes.js').Routes;
 
 const seneca = require('seneca')();
 const web = require('seneca-web');
