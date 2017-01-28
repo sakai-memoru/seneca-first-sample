@@ -1,4 +1,4 @@
-const containsKeywords = require('../containsKeywords').containsKeywords;
+const containsKeywords = require('../lib/containsKeywords').containsKeywords;
 
 const shoud  = require('chai').should();
 
