@@ -1,7 +1,7 @@
 const shoud  = require('chai').should();
 const expect = require('chai').expect;
 
-describe('#randomId() function',()=>{
+describe('generateId#randomId() function',()=>{
   describe('logical unit test',()=>{
     it('should return random number of 11 digit',()=>{
       // Arrange
@@ -18,7 +18,7 @@ describe('#randomId() function',()=>{
   });
 });
 
-describe('#timestampId() function',()=>{
+describe('generateId#timestampId() function',()=>{
   describe('logical unit test',()=>{
     it('should return YYYYMMDDHHmmss',()=>{
       // Arrange
@@ -37,7 +37,7 @@ describe('#timestampId() function',()=>{
   });
 });
 
-describe('#uuId() function',()=>{
+describe('generateId#uuId() function',()=>{
   describe('logical unit test',()=>{
     it('should return RRRRRRRR-RRRR-4RRR-rRRR-RRRRRRRRRRRR',()=>{
       // Arrange
@@ -52,7 +52,7 @@ describe('#uuId() function',()=>{
   });
 });
 
-describe('#rondomKey() function',()=>{
+describe('generateId#rondomKey() function',()=>{
   describe('logical unit test',()=>{
     it('should return 36 chars [0-9a-z] with parameter in length',()=>{
       // Arrange
@@ -68,7 +68,7 @@ describe('#rondomKey() function',()=>{
   });
 });
 
-describe('#dateKey() function',()=>{
+describe('generateId#dateKey() function',()=>{
   describe('logical unit test',()=>{
     it('should return YYMMDD-RRRRRR',()=>{
       // Arrange

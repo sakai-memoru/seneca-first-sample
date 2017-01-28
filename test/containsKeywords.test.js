@@ -8,12 +8,11 @@ describe('contains keywords function',()=>{
       // Arrange
       let message = 'Hello,world!';
       let sceneCode = 'SAY_HELLO';
-      let expected = true;
       // Act
       let actual = containsKeywords(message,sceneCode);
-      // console.log('actual = ' + actual);
+      console.log('actual = ' + actual);
       // Assert
-      actual.should.equal(expected);
+      actual.should.be.true;
     });
     it('should return true when it contains key with ignoreCase',()=>{
       // Arrange
@@ -24,7 +23,8 @@ describe('contains keywords function',()=>{
       let actual = containsKeywords(message,sceneCode);
       // console.log('actual = ' + actual);
       // Assert
-      actual.should.equal(expected);
+      actual.should.be.true;
+      //actual.should.equal(expected);
     });
     it('should return false when it dose not contains key',()=>{
       // Arrange
@@ -35,7 +35,8 @@ describe('contains keywords function',()=>{
       let actual = containsKeywords(message,sceneCode);
       // console.log('actual = ' + actual);
       // Assert
-      actual.should.equal(expected);
+      actual.should.be.not.true;
+      //actual.should.equal(expected);
     });
   });
 
